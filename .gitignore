@@ -6,6 +6,7 @@
 /templates_c/*
 /images/*
 /class/*
+function.php
 
 # keep some hiddens
 !/.gitignore

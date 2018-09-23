@@ -6,13 +6,13 @@ The “CRUD” means Create, Read, Update, Delete and is the most frequent funct
 
 There are seven operations need to identified. They are:
 
-- list_products: get and show all products.
-- show_product: get product data for a specific prod_id.
-- new_product: get a new form to enter product data.
-- create_product: create a product and save to database.
-- edit_product: get and edit product data for a specific prod_id.
-- update_product update product data of a specific prod_id to database.
-- delete_product delete product for a specific prod_id.
+- 1. list_products: get and show all products.
+- 2. show_product: get product data for a specific prod_id.
+- 3. new_product: get a new form to enter product data.
+- 4. create_product: create a product and save to database.
+- 5. edit_product: get and edit product data for a specific prod_id.
+- 6. update_product update product data of a specific prod_id to database.
+- 7. delete_product delete product for a specific prod_id.
 
 The operations 3 and 4 are consecutive steps, which mean when a user creates a product by finishing product data entry (operation 3), the system save product data to database at once (operation 4).
 

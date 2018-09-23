@@ -1,8 +1,8 @@
 <?php
   define('_SHOP_NAME', 'CRUD-DEMO SHOP');
   define('_DBNAME',    'mini_shop');
-  define('_DBUSER',    'XXXX');
-  define('_DBPASSWD',  'XXXXXX');
+  define('_DBUSER',    'root');
+  define('_DBPASSWD',  '1234');
   define('_DBHOST',    '127.0.0.1');
 
   // PageBar 分頁工具
