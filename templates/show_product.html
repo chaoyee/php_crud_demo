@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-9 offset-md-2">
+      <div class="row">
+        <h2>{$product.prod_name}</h2>
+      </div>
+      <hr>
+      <div class="row">
+        <h4>{$product.prod_desc}</h4>
+      </div>
+      <div class="row">
+        <h5>售價：</h5>
+        <h5>新台幣 &nbsp</h5>
+        <h4 style="color: red">{$product.prod_price}</h4>
+        <h5>&nbsp 元整</h5>
+      </div>
+      <div class="row">
+          <h5>人氣： &nbsp</h5>
+          <h5 style="color: red">{$product.prod_counter}</h5>
+      </div>
+      <br/>
+      <div class="row">
+        <a href="index.php?op=edit_product&prod_id={$product.prod_id}" class="btn btn-warning">編輯產品</a>
+        &nbsp;
+        <a href="index.php?op=delete_product&prod_id={$product.prod_id}" class="btn btn-danger" >刪除產品</a>
+      </div>
+    </div>
+  </div>
+</div>

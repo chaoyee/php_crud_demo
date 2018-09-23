@@ -1,0 +1,25 @@
+<h4>產品列表</h4>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>產品名稱</th>
+        <th>產品內容</th>
+        <th>價格</th>
+        <th>人氣</th>
+      </tr>
+    </thead>
+    <tbody>
+      {foreach from=$products item=product}
+        <tr>
+          <td><a href="index.php?op=show_product&prod_id={$product.prod_id}">{$product.prod_name}</a></td>
+          <td>{$product.prod_desc}</td>
+          <td>{$product.prod_price}</td>
+          <td>{$product.prod_counter}</td>
+        <tr>
+      {/foreach}
+    </tbody>
+  </table>
+<div class="container">
+  共有 {$total} 件商品
+  {$bar}
+</div>

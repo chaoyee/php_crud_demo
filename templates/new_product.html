@@ -1,0 +1,13 @@
+<div class="container">
+  <h4>新增產品</h4>
+</div>
+<form class="form" action="index.php" method="post" class="form-horizontal"
+      role="form" enctype="multipart/form-data">
+  {include file = "product_form.html"}
+  <div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+      <input type="hidden" name="op" value="create_product">
+      <button type="submit" class="btn btn-primary">儲存產品資訊</button>
+    </div>
+  </div>
+</form>
