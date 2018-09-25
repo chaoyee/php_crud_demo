@@ -1,8 +1,10 @@
 <?php
+  require "secret.php";
+
   define('_SHOP_NAME', 'CRUD-DEMO SHOP');
   define('_DBNAME',    'mini_shop');
-  define('_DBUSER',    'xxxx');
-  define('_DBPASSWD',  'xxxxxx');
+  define('_DBUSER',     DBUSER);
+  define('_DBPASSWD',   DBPASSWD);
   define('_DBHOST',    '127.0.0.1');
 
   // PageBar 分頁工具

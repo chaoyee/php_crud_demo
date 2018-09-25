@@ -2,6 +2,7 @@
 .*
 *~
 .DS_Store
+secret.php
 /smarty/*
 /templates_c/*
 /images/*
