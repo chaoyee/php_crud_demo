@@ -3,10 +3,11 @@
 *~
 .DS_Store
 secret.php
-/smarty/*
-/templates_c/*
-/images/*
-/class/*
+/images/do_not_upload/*
+
+# /smarty/*
+# /templates_c/*
+# /class
 
 # keep some hiddens
 !/.gitignore
