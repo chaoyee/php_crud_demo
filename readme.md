@@ -19,3 +19,5 @@ The operations 3 and 4 are consecutive steps, which mean when a user creates a p
 Likewise, operation 5 and 6 have the same situation. The system gets and shows the product data on the screen (operation 5), then it saves the data back to database while data has been edited by a user (operation 6).
 
 This demo application is also described in [A Simple CRUD App in PHP](https://charles4code.blogspot.com/2018/09/a-simple-crud-app-in-php.html).
+
+Demo site at Heroku: [php_crud_demo](https://php-crud-demo.herokuapp.com/)
