@@ -2,7 +2,7 @@
 .*
 *~
 .DS_Store
-secret.php
+secret_local.php
 /images/do_not_upload/*
 
 # /smarty/*
