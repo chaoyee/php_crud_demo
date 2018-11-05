@@ -4,6 +4,7 @@
 .DS_Store
 secret_local.php
 /images/do_not_upload/*
+/documents/*
 
 # /smarty/*
 # /templates_c/*
